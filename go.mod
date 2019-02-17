@@ -45,7 +45,8 @@ require (
 	github.com/shurcooL/sanitized_anchor_name v1.0.0 // indirect
 	github.com/shurcooL/webdavfs v0.0.0-20181215192745-5988b2d638f6 // indirect
 	github.com/sirupsen/logrus v1.3.0 // indirect
-	github.com/swaggo/echo-swagger v0.0.0-20190115041830-0632ec4a286b // indirect
+	github.com/stretchr/testify v1.3.0
+	github.com/swaggo/echo-swagger v0.0.0-20190115041830-0632ec4a286b
 	github.com/swaggo/swag v1.4.0
 	github.com/urfave/cli v1.20.0 // indirect
 	go.opencensus.io v0.19.0 // indirect

@@ -7,7 +7,7 @@ import (
 )
 
 func ProcessSum(c echo.Context, chap chan types.Payload, char chan types.Result) {
-	defer helper.RecoverPanic(c, char)
+	defer helper.RecoverPanic(char)
 	pp := <-chap
 	op := pp.A + pp.B
 	r := types.Result{Result: op}

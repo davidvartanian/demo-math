@@ -23,4 +23,4 @@ how to easily create a micro service able to be containerised.
 ```
 
 ## Testing
-`$ go test`
+`$ go test -v ./...`
